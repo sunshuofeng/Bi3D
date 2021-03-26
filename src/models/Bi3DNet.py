@@ -12,10 +12,10 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 
-import models.FeatExtractNet as FeatNet
-import models.SegNet2D as SegNet
-import models.RefineNet2D as RefineNet
-import models.RefineNet3D as RefineNet3D
+import bi_models.FeatExtractNet as FeatNet
+import bi_models.SegNet2D as SegNet
+import bi_models.RefineNet2D as RefineNet
+import bi_models.RefineNet3D as RefineNet3D
 
 
 __all__ = ["bi3dnet_binary_depth", "bi3dnet_continuous_depth_2D", "bi3dnet_continuous_depth_3D"]
