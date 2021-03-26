@@ -12,9 +12,9 @@ import numpy as np
 
 __all__ = ["segregnet3d"]
 
-from models.GCNet import conv3d_relu
-from models.GCNet import deconv3d_relu
-from models.GCNet import feature3d
+from bi_models.GCNet import conv3d_relu
+from bi_models.GCNet import deconv3d_relu
+from bi_models.GCNet import feature3d
 
 
 def net_init(net):
