@@ -11,9 +11,9 @@ import torch
 import torch.nn as nn
 import math
 
-from models.PSMNet import conv2d
-from models.PSMNet import conv2d_relu
-from models.PSMNet import FeatExtractNetSPP
+from bi_models.PSMNet import conv2d
+from bi_models.PSMNet import conv2d_relu
+from bi_models.PSMNet import FeatExtractNetSPP
 
 __all__ = ["featextractnetspp", "featextractnethr"]
 
