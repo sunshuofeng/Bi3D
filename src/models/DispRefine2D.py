@@ -26,8 +26,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 
-from models.PSMNet import conv2d
-from models.PSMNet import conv2d_lrelu
+from bi_models.PSMNet import conv2d
+from bi_models.PSMNet import conv2d_lrelu
 
 """
 The code in this file is adapted
