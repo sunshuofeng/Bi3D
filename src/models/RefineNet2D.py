@@ -15,10 +15,10 @@ import argparse
 import time
 import torch.backends.cudnn as cudnn
 
-from models.PSMNet import conv2d
-from models.PSMNet import conv2d_lrelu
+from bi_models.PSMNet import conv2d
+from bi_models.PSMNet import conv2d_lrelu
 
-from models.DispRefine2D import DispRefineNet
+from bi_models.DispRefine2D import DispRefineNet
 
 __all__ = ["disprefinenet", "segrefinenet"]
 
